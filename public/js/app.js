@@ -29287,26 +29287,7 @@ module.exports = g;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/postcss-loader/src/index.js):\nTypeError: getProcessedPlugins is not a function\n    at /Users/sean/Projects/tailwindcss2-break/node_modules/tailwindcss/lib/processTailwindFeatures.js:71:83\n    at LazyResult.run (/Users/sean/Projects/tailwindcss2-break/node_modules/postcss-loader/node_modules/postcss/lib/lazy-result.js:288:14)\n    at LazyResult.asyncTick (/Users/sean/Projects/tailwindcss2-break/node_modules/postcss-loader/node_modules/postcss/lib/lazy-result.js:212:26)\n    at LazyResult.asyncTick (/Users/sean/Projects/tailwindcss2-break/node_modules/postcss-loader/node_modules/postcss/lib/lazy-result.js:225:14)\n    at /Users/sean/Projects/tailwindcss2-break/node_modules/postcss-loader/node_modules/postcss/lib/lazy-result.js:254:14\n    at new Promise (<anonymous>)\n    at LazyResult.async (/Users/sean/Projects/tailwindcss2-break/node_modules/postcss-loader/node_modules/postcss/lib/lazy-result.js:250:23)\n    at LazyResult.then (/Users/sean/Projects/tailwindcss2-break/node_modules/postcss-loader/node_modules/postcss/lib/lazy-result.js:131:17)\n    at /Users/sean/Projects/tailwindcss2-break/node_modules/postcss-loader/src/index.js:142:8\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at /Users/sean/Projects/tailwindcss2-break/node_modules/webpack/lib/NormalModule.js:316:20\n    at /Users/sean/Projects/tailwindcss2-break/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /Users/sean/Projects/tailwindcss2-break/node_modules/loader-runner/lib/LoaderRunner.js:233:18\n    at context.callback (/Users/sean/Projects/tailwindcss2-break/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at /Users/sean/Projects/tailwindcss2-break/node_modules/postcss-loader/src/index.js:208:9\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)");
-
-/***/ }),
-
-/***/ "./resources/js/Pages sync recursive ^\\.\\/.*$":
-/*!******************************************!*\
-  !*** ./resources/js/Pages sync ^\.\/.*$ ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function webpackEmptyContext(req) {
-	var e = new Error("Cannot find module '" + req + "'");
-	e.code = 'MODULE_NOT_FOUND';
-	throw e;
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = "./resources/js/Pages sync recursive ^\\.\\/.*$";
+throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/postcss-loader/src/index.js):\nTypeError: getProcessedPlugins is not a function\n    at /Users/sean/Projects/tailwindcss2-break/node_modules/tailwindcss/lib/processTailwindFeatures.js:71:83\n    at LazyResult.run (/Users/sean/Projects/tailwindcss2-break/node_modules/postcss-loader/node_modules/postcss/lib/lazy-result.js:288:14)\n    at LazyResult.asyncTick (/Users/sean/Projects/tailwindcss2-break/node_modules/postcss-loader/node_modules/postcss/lib/lazy-result.js:212:26)\n    at LazyResult.asyncTick (/Users/sean/Projects/tailwindcss2-break/node_modules/postcss-loader/node_modules/postcss/lib/lazy-result.js:225:14)\n    at /Users/sean/Projects/tailwindcss2-break/node_modules/postcss-loader/node_modules/postcss/lib/lazy-result.js:254:14\n    at new Promise (<anonymous>)\n    at LazyResult.async (/Users/sean/Projects/tailwindcss2-break/node_modules/postcss-loader/node_modules/postcss/lib/lazy-result.js:250:23)\n    at LazyResult.then (/Users/sean/Projects/tailwindcss2-break/node_modules/postcss-loader/node_modules/postcss/lib/lazy-result.js:131:17)\n    at /Users/sean/Projects/tailwindcss2-break/node_modules/postcss-loader/src/index.js:142:8\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at /Users/sean/Projects/tailwindcss2-break/node_modules/webpack/lib/NormalModule.js:316:20\n    at /Users/sean/Projects/tailwindcss2-break/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /Users/sean/Projects/tailwindcss2-break/node_modules/loader-runner/lib/LoaderRunner.js:233:18\n    at context.callback (/Users/sean/Projects/tailwindcss2-break/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at /Users/sean/Projects/tailwindcss2-break/node_modules/postcss-loader/src/index.js:208:9\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)");
 
 /***/ }),
 
@@ -29346,24 +29327,6 @@ vue__WEBPACK_IMPORTED_MODULE_1___default.a.mixin({
   }
 });
 var el = document.getElementById('app');
-new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
-  render: function render(h) {
-    return h(_inertiajs_inertia_vue__WEBPACK_IMPORTED_MODULE_0__["App"], {
-      props: {
-        initialPage: JSON.parse(el.dataset.page),
-        resolveComponent: function resolveComponent(name) {
-          return __webpack_require__("./resources/js/Pages sync recursive ^\\.\\/.*$")("./".concat(name))["default"];
-        }
-      }
-    });
-  }
-}).$mount(el);
-
-vue__WEBPACK_IMPORTED_MODULE_1___default.a.prototype.$route = function () {
-  return route.apply(void 0, arguments);
-};
-
-_inertiajs_progress__WEBPACK_IMPORTED_MODULE_2__["InertiaProgress"].init();
 
 /***/ }),
 
